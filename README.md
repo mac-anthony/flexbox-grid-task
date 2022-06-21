@@ -1,5 +1,5 @@
 # flexbox-grid-task
-# Front-end Style Guide
+
 
 ## Layout
 

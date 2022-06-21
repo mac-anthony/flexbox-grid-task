@@ -11,12 +11,30 @@
 .main-page {
   width: 100vw;
   /* height: 100vh; */
-  margin: 0 auto;
+  margin: 2rem auto;
   max-width: 1400px;
   min-height: 100vh;
   padding-top: 2rem;
   /* background-color: red; */
 }
+
+header{
+  width: 100%;
+  /* height: 8vh; */
+  background-color: rgb(17, 29, 48 );
+  position: fixed;
+  top: 0;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+header a{
+  color: white;
+  margin-left: 100px;
+}
+
 
 .container {
   display: flex;
@@ -120,7 +138,7 @@ p {
   .main-page {
     width: 100vw;
     /* height: 100vh; */
-    margin: 0 auto;
+    margin: 5rem auto;
     max-width: 1400px;
     min-height: 100vh;
     padding-top: 2rem;
@@ -185,29 +203,6 @@ p {
     border: 2px solid hsl(0, 0%, 95%);
     color: hsl(0, 0%, 95%);
   }
-
-  footer {
-    position: relative;
-  }
-
-  .grid-page-btn {
-    padding: 1.3rem 2.5rem;
-    border-radius: 2rem;
-    border: 0;
-    background-color: hsl(184, 100%, 22%);
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: bolder;
-    position: absolute;
-    left: 76%;
-  bottom: 4rem;
-  }
-
-  .grid-page-btn a {
-    text-decoration: none;
-    color: hsl(0, 0%, 95%);
-  }
-
 }
 
 @media screen and (min-width: 1023px) {
@@ -217,6 +212,7 @@ p {
     max-width: 1400px;
     min-height: 100vh;
     padding-top: 2rem;
+    margin: 5rem auto;
   }
 
   .container {
@@ -278,25 +274,4 @@ p {
     color: hsl(0, 0%, 95%);
   }
 
-  footer {
-    position: relative;
-  }
-
-  .grid-page-btn {
-    padding: 1.3rem 2.5rem;
-    border-radius: 2rem;
-    border: 0;
-    background-color: hsl(184, 100%, 22%);
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: bolder;
-    position: absolute;
-    left: 76%;
-  bottom: 4rem;
-  }
-
-  .grid-page-btn a {
-    text-decoration: none;
-    color: hsl(0, 0%, 95%);
-  }
 }
